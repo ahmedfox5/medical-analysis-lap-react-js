@@ -1,0 +1,8 @@
+.blog-content p {
+    font-size: 14px;
+}
+
+.blog-content a {
+    font-size: 1em;
+    text-decoration: none!important;
+}

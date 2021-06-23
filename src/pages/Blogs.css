@@ -1,0 +1,26 @@
+
+.blogs-header{
+    height: 60vh;
+    position: relative;
+    background-image: url(../backgrounds/blogs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+.blogs-header::before{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    background: #00000099;
+    z-index: 1;
+}
+
+.blogs-header .header-content{
+    position: relative;
+    z-index: 2;
+}

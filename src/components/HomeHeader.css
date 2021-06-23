@@ -1,0 +1,25 @@
+.home-header{
+    position: relative;
+    height: 100vh;
+    color: #fff;
+    overflow: hidden;
+}
+.home-header p{
+    color: rgb(202, 199, 199);
+}
+.home-header button{
+    color: #fff;
+}
+.home-header button:hover{
+     background: #5a26c2;        /*/////////////////////////////////////// */
+}
+#header_background{
+    position: absolute;
+    left: 0;
+}
+
+@media(max-width:768px){
+    .home-header{
+        height: auto;
+    }
+}

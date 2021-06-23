@@ -1,0 +1,33 @@
+.service-content h1{
+    font-size: 50px;
+    text-align: left;
+    padding: 5px;
+    position: relative;
+    font-weight:lighter;
+}
+
+.service-content h1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #7731FF;
+    height: 5px;
+    width: 60px;
+}
+
+.service-content .before-left::before{
+    left: 0;
+}
+.service-content .before-right::before{
+    left: calc(100% - 60px);
+}
+
+.service-content h4{
+    font-weight: normal;
+}
+
+.service-img img{
+    width: 100%;
+    height: 100%;
+}

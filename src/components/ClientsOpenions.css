@@ -1,0 +1,22 @@
+
+.clientsOpenions .row{
+    background: #EEF2FD;
+}
+
+.swiper-container{
+    background: #e7eaf5;
+}
+.swiper-slide{
+    cursor :grab;
+    padding: 50px;
+}
+
+.swiper-slide:active{
+    cursor :grabbing;
+}
+
+@media(max-width:768px){
+    .swiper-slide{
+        padding: 20px;
+    }
+}

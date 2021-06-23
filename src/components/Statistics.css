@@ -1,0 +1,20 @@
+.statistics{
+    background-image:url(./../backgrounds/statistics2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+.statistics .statistic{
+    background: #ffffff44;
+}
+
+.statistics .statistic:hover{
+    background: #ffffff55;
+}
+
+
+.statistics h1{
+    font-size: 50px;
+}

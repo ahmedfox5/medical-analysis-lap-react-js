@@ -1,0 +1,44 @@
+
+.dashboard-nav{
+    border: 1px solid #ddd;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 150px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.dashboard-nav ul li{
+    list-style: none;
+    width: 100%;
+    margin: 40px 0;
+    
+}
+
+.dashboard-nav ul li a{
+    width: 140px!important;
+    padding: 15px 0;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    
+}
+.dashboard-nav ul li a button{
+    width: 100%;
+    border: none;
+    text-align: left;
+}
+
+.dashboard-nav ul li a:hover{
+    background: #7731FF; 
+    color: #fff;
+}
+
+.dashboard-nav ul li .active{
+    background: #7731FF;
+    color: #fff;
+}
+.dashboard-nav ul li .active button{
+    color: #fff;
+}

@@ -1,0 +1,128 @@
+.top-nav{
+    background: #7731FF; /*/////////////////////////////////////// */
+    padding: 5px 10px;
+    color: #ffffff;
+    height: 50px;
+}
+
+.top-nav button{
+    color: #ffffff;
+}
+.top-nav button:hover{
+    background: #ffffff;
+    color: #000000;
+    border: 1px solid #ffffff;
+}
+
+.nav-bar{
+    background: #ffffff;
+    padding: 0px;
+    height: 70px;
+    position: relative;
+    width: 100%;
+    z-index: 130!important;
+    box-shadow: 1px 2px 5px #00000055;
+}
+
+.nav-bar canvas{
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+}
+
+.nav-links{
+    align-items:center;
+    display:flex;
+    justify-content:center;
+    position: relative;
+    left: 0;
+}
+
+.nav-link{
+    position: relative;
+    z-index: 150;
+}
+
+.nav-links a{
+    text-decoration: none!important;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid;
+    color: #000000;
+}
+
+.nav-links .active{
+    background: #7731FF;
+    color: #ffffff;
+}
+
+#navSlider{
+    display: none;
+}
+
+/* nav button  */
+
+
+#navSlider div{
+    width: 30px;
+    padding: 0;
+    height: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+#navSlider span{
+    height: 3px ;
+    width: 30px;
+    position: absolute;
+    left: 0;
+    background: #000000;
+    display: inline-block;
+    border:none;
+    transition: all .5s ease-in-out;
+}
+
+#navSlider span:nth-child(1){
+    top:6px;
+}
+
+#navSlider span:nth-child(2){
+    top:16px;
+}
+
+#navSlider span:nth-child(3){
+    top:26px;
+}
+
+
+@media(max-width:768px){
+    .top-nav{
+        font-size: 12px;
+    }
+
+    .nav-links{
+        top: 70px;
+        position: fixed;
+        height: 100vh!important;
+        width: 100vw!important;
+        background: rgba(255, 255, 255, 0.726);
+        display: block;
+    }
+    .nav-links a{
+        display: block;
+    }
+
+    #navSlider{
+        display: block;
+        position: absolute;
+        top: 15px;
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+        box-sizing: border-box;
+        left: calc(100% - 70px);
+    }
+}

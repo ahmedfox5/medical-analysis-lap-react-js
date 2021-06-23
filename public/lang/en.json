@@ -1,0 +1,55 @@
+{
+    "nav" : {
+        "home" : "Home",
+        "services" : "Services",
+        "about" : "About Us",
+        "doctors" : "Doctors",
+        "blogs" : "Blogs"
+    },
+
+    "home":{
+        "header" : {
+            "title" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, nisi!",
+            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, nisi!Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, nisi!",
+            "learnMore" : "Learn More"
+        },
+        "howItWorks":{
+            "title" : "How It Works",
+            "getResult" : {
+                "title" : "Get Your Result In 1h",
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ipsa eligendi dicta hic. Deserunt modi praesentium, nam quaerat numquam nisi."
+            },
+            "helpfulTest" : {
+                "title" : "Helpful Test Tips",
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ipsa eligendi dicta hic. Deserunt modi praesentium, nam quaerat numquam nisi."
+            },
+            "testAtHome" : {
+                "title" : "Test At Home",
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ipsa eligendi dicta hic. Deserunt modi praesentium, nam quaerat numquam nisi."
+            }
+        }
+    },
+    "statistics" : {
+        "yearsOfExperiences" : "Years of Experiences",
+        "deliveryBeforeTheDate" : "Delivery before the date",
+        "ourDoctors" : "Our Doctors",
+        "clientsLoveOurWork" : "Clients Love Our Work"
+    },
+    "services" : {
+        "homeHealth" : {
+            "title" : "Home Health",
+            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam pariatur ipsam non cum temporibus, doloremque ipsum eos voluptatum cumque repudiandae blanditiis vitae ratione nam. Cupiditate, quos."
+        },
+        "acuteCare" : {
+            "title" : "Acute Care",
+            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam pariatur ipsam non cum temporibus, doloremque ipsum eos voluptatum cumque repudiandae blanditiis vitae ratione nam. Cupiditate, quos."
+        },
+        "skilledWorkers" : {
+            "title" : "Skilled Workers",
+            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam pariatur ipsam non cum temporibus, doloremque ipsum eos voluptatum cumque repudiandae blanditiis vitae ratione nam. Cupiditate, quos."
+        }
+    },
+    "plansAndPricing" : {
+        "title" : "Plans And Pricing"
+    }
+}

@@ -1,0 +1,19 @@
+.plane-ul li{
+    list-style: none;
+}
+.plane-check{
+    color: #7731FF;
+    margin: 0 10px;
+}
+.plane-cross{
+    color: #eb2f06;
+    margin: 0 10px;
+}
+
+.middle-plane{
+    border: 1px solid #7731FF!important;
+}
+
+.middle-plane h1{
+    color : #7731FF!important;
+}
